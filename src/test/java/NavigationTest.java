@@ -13,6 +13,7 @@ public class NavigationTest {
     WebDriver driver;
     EventFiringWebDriver eventFiringDriver;
     IamTheListnerClass eventListener;
+    IamTheListnerClass2 eventListener2;
 
     @BeforeMethod
     public void beforeMethod() {        // set path of Chromedriver executable
@@ -23,7 +24,9 @@ public class NavigationTest {
 
         eventFiringDriver = new EventFiringWebDriver(driver);
         eventListener = new IamTheListnerClass();
+        eventListener2 = new IamTheListnerClass2();
         eventFiringDriver.register(eventListener);
+        eventFiringDriver.register(eventListener2);
 
     }
 
