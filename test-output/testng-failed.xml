@@ -3,13 +3,13 @@
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
   <test name="ProjectAlpha(failed)">
     <classes>
-      <class name="NavigationTest">
+      <class name="eventFiringWebDriver.NavigationTest">
         <methods>
           <include name="afterMethod"/>
           <include name="navigateToAUrl"/>
           <include name="beforeMethod"/>
         </methods>
-      </class> <!-- NavigationTest -->
+      </class> <!-- eventFiringWebDriver.NavigationTest -->
     </classes>
   </test> <!-- ProjectAlpha(failed) -->
 </suite> <!-- Failed suite [Default Suite] -->

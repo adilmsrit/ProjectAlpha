@@ -1,10 +1,7 @@
+package eventFiringWebDriver;
+
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.events.WebDriverEventListener;
-import org.apache.commons.io.IOUtils;
-import java.io.IOException;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.nio.charset.StandardCharsets;
 
 public class IamTheListnerClass implements WebDriverEventListener {
 
