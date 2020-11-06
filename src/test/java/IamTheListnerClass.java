@@ -37,23 +37,23 @@ public class IamTheListnerClass implements WebDriverEventListener {
     public void afterNavigateTo(String s, WebDriver webDriver) {
         System.out.println("Adil Implemented the interface method for demo purpose for : afterNavigateTo");
 
-        try {
-            JavascriptExecutor jsExecutor = (JavascriptExecutor) webDriver;
-            URL url = new URL("https://raw.githubusercontent.com/GoogleChrome/" +
-                    "accessibility-developer-tools/stable/dist/js/axs_testing.js");
-            String script = IOUtils.toString(url.openStream(), StandardCharsets.UTF_8);
-            jsExecutor.executeScript(script);
-            String report = (String) jsExecutor.executeScript("var results = axs.Audit.run();" +
-                    "return axs.Audit.createReport(results);");
-            System.out.println("### Accessibility Report for " +  webDriver.getTitle() + "####");
-            System.out.println(report);
-            System.out.println("### END ####");
-        }
-        catch (MalformedURLException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+//        try {
+//            JavascriptExecutor jsExecutor = (JavascriptExecutor) webDriver;
+//            URL url = new URL("https://raw.githubusercontent.com/GoogleChrome/" +
+//                    "accessibility-developer-tools/stable/dist/js/axs_testing.js");
+//            String script = IOUtils.toString(url.openStream(), StandardCharsets.UTF_8);
+//            jsExecutor.executeScript(script);
+//            String report = (String) jsExecutor.executeScript("var results = axs.Audit.run();" +
+//                    "return axs.Audit.createReport(results);");
+//            System.out.println("### Accessibility Report for " +  webDriver.getTitle() + "####");
+//            System.out.println(report);
+//            System.out.println("### END ####");
+//        }
+//        catch (MalformedURLException e) {
+//            e.printStackTrace();
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
 
         try {
             JavascriptExecutor jsExecutor = (JavascriptExecutor) webDriver;
