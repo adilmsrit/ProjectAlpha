@@ -6,20 +6,20 @@
     <groups>
     </groups>
     <test name="ProjectAlpha" duration-ms="12912" started-at="2020-11-01T14:43:23Z" finished-at="2020-11-01T14:43:36Z">
-      <class name="NavigationTest">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:NavigationTest@71c7db30]" name="beforeMethod" is-config="true" duration-ms="11432" started-at="2020-11-01T18:43:23Z" finished-at="2020-11-01T18:43:35Z">
+      <class name="eventFiringWebDriver.NavigationTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:eventFiringWebDriver.NavigationTest@71c7db30]" name="beforeMethod" is-config="true" duration-ms="11432" started-at="2020-11-01T18:43:23Z" finished-at="2020-11-01T18:43:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="navigateToAUrl()[pri:0, instance:NavigationTest@71c7db30]" name="navigateToAUrl" duration-ms="863" started-at="2020-11-01T18:43:35Z" finished-at="2020-11-01T18:43:36Z">
+        <test-method status="PASS" signature="navigateToAUrl()[pri:0, instance:eventFiringWebDriver.NavigationTest@71c7db30]" name="navigateToAUrl" duration-ms="863" started-at="2020-11-01T18:43:35Z" finished-at="2020-11-01T18:43:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToAUrl -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:NavigationTest@71c7db30]" name="afterMethod" is-config="true" duration-ms="601" started-at="2020-11-01T18:43:36Z" finished-at="2020-11-01T18:43:36Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:eventFiringWebDriver.NavigationTest@71c7db30]" name="afterMethod" is-config="true" duration-ms="601" started-at="2020-11-01T18:43:36Z" finished-at="2020-11-01T18:43:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- NavigationTest -->
+      </class> <!-- eventFiringWebDriver.NavigationTest -->
     </test> <!-- ProjectAlpha -->
   </suite> <!-- Default Suite -->
 </testng-results>
