@@ -1,3 +1,4 @@
+
 package Utilities;
 
 import eventFiringWebDriver.IamTheListnerClass;
@@ -17,4 +18,3 @@ public class Base {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         return driver;
     }
-
